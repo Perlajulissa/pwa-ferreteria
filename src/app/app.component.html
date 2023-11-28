@@ -1,0 +1,29 @@
+<div class="" style="background-color: #FDFEFE;">
+  
+  <header class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <a [routerLink]="['/inicio']" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+
+    </a>
+    <img src="assets/imagen/Logo-ferre.png" style=" width:180px; position:absolute; top: 30px;"   class="justify-content-start" alt="..."  >
+      <ul class="nav col-12 col-md-auto mb-4 justify-content-center mb-md-0">
+        <li ><a routerLink="" class="nav-link px-2  mb-2 h4" [ngStyle]="{'color': linkColor=== 'inicio' ? '#FC4B08' : 'black'}" (click)="changeColor('inicio')">Inicio</a></li>
+        <li class="nav-item"><a [routerLink]="['/nosotros']" class="nav-link px-2  mb-0 h6" [ngStyle]="{'color': linkColor=== 'nosotros' ? '#FC4B08' : 'black'}" (click)="changeColor('nosotros')">Nosotros</a></li>
+        <li class="nav-item"><a [routerLink]="['/productos']" class="nav-link px-2 mb-0 h6" [ngStyle]="{'color': linkColor=== 'productos' ? '#FC4B08' : 'black'}" (click)="changeColor('productos')">Productos</a></li>
+        <li class="nav-item"><a [routerLink]="['/contactanos']" class="nav-link px-2 mb-0 h6" [ngStyle]="{'color': linkColor === 'contactanos' ? '#FC4B08' : 'black' }" (click)="changeColor('contactanos')">Contactanos</a></li>   
+      
+      </ul>
+      
+  </header>
+  </div>
+
+<main>
+  <router-outlet></router-outlet>
+ 
+</main>
+<app-footer></app-footer>
+
+
+  
+
+
+

@@ -1,0 +1,57 @@
+h2{
+    
+    font-size: 25px;
+}
+h5{
+    font-weight: bold;    
+}
+p{
+    text-align:justify;
+    font-size: 16px;
+    color: black;
+}
+img {
+    float: left;
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: hsla(0, 0%, 94%, 0.377); /* Color de fondo del contenedor */
+  }
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    text-align:justify;
+    max-width: 900px; /* Adjust the max-width as needed */
+    align-items: center;
+    margin: auto; 
+    justify-content: center;
+    height: 90vh;
+    
+}
+@media (min-width: 577px) {
+.card {  
+margin-bottom: 1.5rem; /* Ajustar el espacio entre elementos en dispositivos medianos y grandes */
+    }
+}
+.card img {
+    max-width: 102%;
+    height: auto;
+    border-radius: 5px; /* Adjust the border radius as needed */
+}
+.card-body {
+    text-align: center; /* Centrar el contenido dentro de la tarjeta */
+  }
+

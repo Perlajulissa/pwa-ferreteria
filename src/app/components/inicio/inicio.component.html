@@ -1,0 +1,172 @@
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="container">
+      <div class="section-title-area text-center section-space--bottom--80">
+        <h2 class="title-size bold">Expertos en articulos de ferreteria</h2>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/imagen/ferreterias.png" class="d-block w-100 img-fluid" alt="Ferreterías" class="d-block w-100"  width="600" height="480">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/imagen/bg.jpg" class="d-block w-100 img-fluid"  width="100" height="480">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/imagen/bgr.jpg" class="d-block w-100 img-fluid"  width="100" height="480">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div>
+        <h3>No busques mas,lo hacemos por ti</h3>
+        <div class="container">
+          <div class="row">
+            <div class="card">
+              <div class="card-body">
+                <img src="assets/imagen/variedad-marcas.png"   class="img-fluid" >
+                <div class="about-icon-box-content"></div>
+                <h4>Variedad en marcas</h4>
+                <p class="content">Encuentra lo que buscas y elige entre diversas marcas y productos que tenemos para ti.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img src="assets/imagen/puerta-negocio.png" class="img-fluid" >
+                <div class="about-icon-box-content"></div>
+                <h4>Hasta la puerta de tu casa</h4>
+                <p class="content">Contamos con envio a domicilio, puedes contar con tu material hasta la puerta de tu casa.</p>
+              </div>
+            </div>  
+            <div class="card">
+              <div class="card-body">
+                <img src="assets/imagen/minimo-compra.png" class="img-fluid" >
+                <div class="about-icon-box-content"></div>
+                <h4>Sin mínimo de compra</h4>
+                <p class="content">Entregamos en huejutla y sus alrededores sin mínimo de compra ni costo adicional por envío.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div><h5>Conoce nuestra categoria de productos</h5>
+        <div class="row"> 
+          <div class="cards">
+            <div class="mb-2" style="max-width: 400px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="assets/imagen/herramientas-1.jpg" class="img-fluid rounded-center" >
+                </div>
+                <div class="card-body">
+                  <img src="assets/imagen/herramient.png" style="margin-left: 20px; margin-top: 5px;" width="52">
+                  <h2 class="card-title">Herramientas</h2>
+                  <p class="card-text">Que nada te detenga en el proyecto que tienes en mente, contamos con lo que necesitas para lograrlo.</p>
+                  <a [routerLink]="['/productos']" class="btn btn-warning">Saber más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="mb-2" style="max-width: 400px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="assets/imagen/material-electrico.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="card-body">
+                  <img src="assets/imagen/material-electrico.png" style="margin-left: 20px; margin-top: 5px;" width="52">
+                  <h2 class="card-title">Material Eléctrico</h2>
+                  <p class="card-text">Todo lo que necesitas para la distribución, transformación y producción de energía eléctrica.</p>
+                  <a [routerLink]="['/productos']" class="btn btn-warning">Saber más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="mb-2" style="max-width: 400px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="assets/imagen/ferreteria-plomeria.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="card-body">
+                  <img src="assets/imagen/ferreteria-plomeria.png"  style="margin-left: 20px; margin-top: 5px;" width="52">
+                  <h2 class="card-title">Ferreteria y plomeria</h2>
+                  <p class="card-text">Encuentra los instrumentos y accesorios que necesites para reparaciones e instalaciones.</p>
+                  <a [routerLink]="['/productos']" class="btn btn-warning">Saber más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="mb-2" style="max-width: 400px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                <img src="assets/imagen/articulos-almacenamiento.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="card-body">
+                  <img src="assets/imagen/articulos-almacenamiento.png" style="margin-left: 20px; margin-top: 5px;" width="52">
+                  <h2 class="card-title">Almacenamiento</h2>
+                  <p class="card-text">Contamos con el mobiliario para almacenamiento  de materiales como tus herramientas necesarias.</p>
+                  <a [routerLink]="['/productos']" class="btn btn-warning">Saber más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="mb-2" style="max-width: 400px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="assets/imagen/seguridad-proteccion.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="card-body">
+                  <img src="assets/imagen/seguridad-proteccion.png" style="margin-left: 20px; margin-top: 5px;" width="52">
+                  <h2 class="card-title">Seguridad y proteccion</h2>
+                  <p class="card-text">Asegúrate que tu equipo de trabajo e instalaciones se encuentren a salvo de accidentes y listos para emergencias.</p>
+                  <a [routerLink]="['/productos']" class="btn btn-warning">Saber más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="mb-2" style="max-width: 400px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="assets/imagen/griferia-accesorios.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="card-body text-center">
+                  <img src="assets/imagen/griferia-accesorios.png" style="margin-left: 20px; margin-top: 5px;" width="52">
+                  <h2 class="card-title">Griferia y articulos</h2>
+                  <p class="card-text">Si requieres instalar, reparar o cambiar tu equipo de baño, aquí encontrarás lo necesario.</p>
+                  <a [routerLink]="['/productos']" class="btn btn-warning">Saber más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item  list-group-item-action active" aria-current="true">
+            Aceptamos las siguientes formas de pago:
+          </a>
+          <a  class="list-group-item list-group-item-action ">1.- TRANSFERENCIA
+            <img src="assets/imagen/transferencia.jpg" width="52">
+          </a>
+          <a  class="list-group-item list-group-item-action">2.- EFECTIVO
+            <img src="assets/imagen/efectivo.png" width="55">
+          </a>
+          <a  class="list-group-item list-group-item-action">3.- DEPOSITO
+            <img src="assets/imagen/deposito.png" width="55">
+          </a>
+          <a class="list-group-item list-group-item-action">4.- MASTERCARD
+            <img src="assets/imagen/mastercard.png" width="55">
+          </a>
+        </div>
+      </div>
+    </div> 
+  </header>

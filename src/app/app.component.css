@@ -1,0 +1,26 @@
+a{
+    font-size:medium;
+    text-align: right;
+    
+  }
+  /* Estilo para el enlace cuando se hace clic (rojo, por ejemplo) */
+  .clicked {
+      color: red;
+  }
+  @media only screen and (max-width: 600px) {
+      main {
+        padding: 1em;
+      }
+    }
+  
+  img{
+    max-width: 90%;
+  }
+  .izquierda {
+    float: left; /* Keep the image on the left */
+    margin-right: 10px; /* Add some margin to separate the image from the text */ 
+    margin-bottom: 20px; /* Adjust the margin to move the image below the text */
+  }
+  .nav {
+    position: relative; /* Make the parent container of the navigation links relative */
+  }

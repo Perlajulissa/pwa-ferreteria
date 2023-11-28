@@ -1,0 +1,29 @@
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="container">
+        <img src="assets/imagen/contacto.jpg" >
+    
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div class="card">
+        <div class="mb-3">
+           <p>Envíanos un mensaje y nos pondremos en contacto contigo.</p> 
+          <div class="mb-3">
+            
+            <label for="exampleInputText" class="form-label" >Nombre</label>
+            <input type="text" class="form-control" formControlName="name"  >
+          </div>
+          <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
+          <input type="email" class="form-control"  placeholder="name@example.com"  formControlName="email">
+          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label" >Escriba su mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  formControlName="message" ></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary" >Enviar</button>
+      </div> 
+    </form>
+    </div>
+</header>
+
