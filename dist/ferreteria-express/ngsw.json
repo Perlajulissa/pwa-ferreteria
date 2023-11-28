@@ -1,0 +1,191 @@
+{
+  "configVersion": 1,
+  "timestamp": 1701145964023,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.3dcd475a738b9728.js",
+        "/manifest.webmanifest",
+        "/polyfills.55dab41de8af99a2.js",
+        "/runtime.4020ee6fbb00eeab.js",
+        "/styles.ba5ddbc2e07b2610.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css",
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap-icons@1\\.11\\.1\\/font\\/bootstrap-icons\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/imagen/Logo-ferre.png",
+        "/assets/imagen/articulos-almacenamiento.jpg",
+        "/assets/imagen/articulos-almacenamiento.png",
+        "/assets/imagen/bg.jpg",
+        "/assets/imagen/bgr.jpg",
+        "/assets/imagen/contacto.jpg",
+        "/assets/imagen/correo-electronico.png",
+        "/assets/imagen/deposito.png",
+        "/assets/imagen/efectivo.png",
+        "/assets/imagen/ferreteria-plomeria.jpg",
+        "/assets/imagen/ferreteria-plomeria.png",
+        "/assets/imagen/ferreteria.jpg",
+        "/assets/imagen/ferreterias.png",
+        "/assets/imagen/griferia-accesorios.jpg",
+        "/assets/imagen/griferia-accesorios.png",
+        "/assets/imagen/herramient.png",
+        "/assets/imagen/herramientas-1.jpg",
+        "/assets/imagen/imagen.png",
+        "/assets/imagen/marcas-fereteria.jpg",
+        "/assets/imagen/mastercard.png",
+        "/assets/imagen/material-electrico.jpg",
+        "/assets/imagen/material-electrico.png",
+        "/assets/imagen/minimo-compra.png",
+        "/assets/imagen/producto/cable.jpg",
+        "/assets/imagen/producto/contac.jpg",
+        "/assets/imagen/producto/contacto.jpg",
+        "/assets/imagen/producto/cuter.jpg",
+        "/assets/imagen/producto/desarmador-cruz.png",
+        "/assets/imagen/producto/desarmador-plano.png",
+        "/assets/imagen/producto/foco.jpg",
+        "/assets/imagen/producto/herramientas.jpg",
+        "/assets/imagen/producto/juego-desarmado.jpg",
+        "/assets/imagen/producto/llave-ajustable.jpg",
+        "/assets/imagen/producto/llave-allen.jpg",
+        "/assets/imagen/producto/llave-combinada.png",
+        "/assets/imagen/producto/llave.jpg",
+        "/assets/imagen/producto/martillo.png",
+        "/assets/imagen/producto/mazo.jpg",
+        "/assets/imagen/producto/pinza-1.jpg",
+        "/assets/imagen/producto/pinza-punta.jpg",
+        "/assets/imagen/producto/pinza.jpg",
+        "/assets/imagen/puerta-negocio.png",
+        "/assets/imagen/seguridad-proteccion.jpg",
+        "/assets/imagen/seguridad-proteccion.png",
+        "/assets/imagen/transferencia.jpg",
+        "/assets/imagen/variedad-marcas.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "data-api",
+      "patterns": [
+        "https:\\/\\/ferreteriaexpress\\.000webhostapp\\.com\\/"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 3000000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "8758fc93b75574bf832a9ccfe81fbe1ae95266a7",
+    "/assets/icons/icon-144x144.png": "5983cb75626db1698b4db72a3d53663717d90cf5",
+    "/assets/icons/icon-152x152.png": "ac5ea462e3c456b686e2a1783517ec09f8eade75",
+    "/assets/icons/icon-192x192.png": "fb253ccf205baf3c7c3fe3c56edcd6551e53b2ca",
+    "/assets/icons/icon-384x384.png": "f243d4c009a44ef820553a5c5650256ea9167f84",
+    "/assets/icons/icon-512x512.png": "082478ad1291f21a45b4743a0498792d176fefd5",
+    "/assets/icons/icon-72x72.png": "3e9a04193fde7bd0964eba660ea9acff26a417a0",
+    "/assets/icons/icon-96x96.png": "b5a9fad12d11d428193fc037256e7c42b5cb004b",
+    "/assets/imagen/Logo-ferre.png": "18c92d96a9069d368d68008e057f800ab9b1990c",
+    "/assets/imagen/articulos-almacenamiento.jpg": "c224bff5a2c17fab5869981f19ffb32e91db7520",
+    "/assets/imagen/articulos-almacenamiento.png": "1e339872a777a85fd09e50a45077f3ab5459ca10",
+    "/assets/imagen/bg.jpg": "dc27702722d4671ed3050222114863ac8a875672",
+    "/assets/imagen/bgr.jpg": "f89707f48d5009ab980fab2723f4a84cf305bff4",
+    "/assets/imagen/contacto.jpg": "690209cb8ae709b963c502194465a6c222946ca2",
+    "/assets/imagen/correo-electronico.png": "67d844416c3832ff41ade002c1146c0612c137d0",
+    "/assets/imagen/deposito.png": "e1b97dc028468ec812c5398c27b90a92f557f8ca",
+    "/assets/imagen/efectivo.png": "1dd99b6e855ceb81da4c95cc2867791cbc5c61d8",
+    "/assets/imagen/ferreteria-plomeria.jpg": "d8193444db780b8be8d2a944fae935c56a47ca9a",
+    "/assets/imagen/ferreteria-plomeria.png": "a6021694726287b05bb9960068c6e43c7e14c36e",
+    "/assets/imagen/ferreteria.jpg": "ee7ca6f337fe83fe866b0e2275c04f48c9c06a3b",
+    "/assets/imagen/ferreterias.png": "19192413fc4d67c197cd10df6e1e5002109abd01",
+    "/assets/imagen/griferia-accesorios.jpg": "80ed9ca6ed26ca1ef96ab6317a5c4162957429e2",
+    "/assets/imagen/griferia-accesorios.png": "4810a21c167b572170d8fd8ac5dd7023c82032f1",
+    "/assets/imagen/herramient.png": "6920b5d86cc464a77c20e01d17f29d9014f9acf2",
+    "/assets/imagen/herramientas-1.jpg": "173040e4296fa6115483b6fbe305e7272cafe8a0",
+    "/assets/imagen/imagen.png": "95b6426d232d2db91bfd27d5e0fdfe4bda78107e",
+    "/assets/imagen/marcas-fereteria.jpg": "39fc79291649f5e163d0232fc139606ce4cb463e",
+    "/assets/imagen/mastercard.png": "c4e631e946970106fbf377c916906489f30373c4",
+    "/assets/imagen/material-electrico.jpg": "1c801d6a291a06a97ce47acc197bc56b614f75ab",
+    "/assets/imagen/material-electrico.png": "46c01656293f36792f94dffebac654efb6ab2057",
+    "/assets/imagen/minimo-compra.png": "1db7f1c965c58bc12057cbba98ff81a89b6080aa",
+    "/assets/imagen/producto/cable.jpg": "84d5084008672810ab91deba6189caed80440de5",
+    "/assets/imagen/producto/contac.jpg": "4203ea36a90408af8df6c349485d0677508b40f9",
+    "/assets/imagen/producto/contacto.jpg": "1a69d8c1d984713d879929c7e8e96d0ab226f079",
+    "/assets/imagen/producto/cuter.jpg": "55aa3b7c471b3216f507ed008ac0d7d578c18805",
+    "/assets/imagen/producto/desarmador-cruz.png": "12ee4be35da63d20aa55175e97ce10cef220d0bd",
+    "/assets/imagen/producto/desarmador-plano.png": "7c5de2e38756aea03bb0c3a62a51c033a419f303",
+    "/assets/imagen/producto/foco.jpg": "98dbfa373a374ac4be216da8643b3255f0849e04",
+    "/assets/imagen/producto/herramientas.jpg": "bd9f3703b652cb96ceaabaa4707292e91833dc52",
+    "/assets/imagen/producto/juego-desarmado.jpg": "8c922b4c9f7c47be92c90c10e141913bfcab6ebf",
+    "/assets/imagen/producto/llave-ajustable.jpg": "a9c0474805723335dc418256e9d2be0d1f090702",
+    "/assets/imagen/producto/llave-allen.jpg": "594643eb115ffad7f01b0a81c7353cf3dcd73376",
+    "/assets/imagen/producto/llave-combinada.png": "a237090ef71ae91484b272cf96afbb6487e50a71",
+    "/assets/imagen/producto/llave.jpg": "622013c411b00dff673d4b32b040e04008e7f0d3",
+    "/assets/imagen/producto/martillo.png": "8b882cdc1a53920d61eaf12569b5e3f79eb7ff5a",
+    "/assets/imagen/producto/mazo.jpg": "41fa935e64be2010e0030bbb8ca81d41f273a8f4",
+    "/assets/imagen/producto/pinza-1.jpg": "3c1b097e324eb73d6f0b19dd4063be0f6442a20c",
+    "/assets/imagen/producto/pinza-punta.jpg": "9105d77c95883767dc58895dd480878c960bc6a8",
+    "/assets/imagen/producto/pinza.jpg": "b6d21c0079789b74e4075fd05bb74c56e3587c6f",
+    "/assets/imagen/puerta-negocio.png": "6eb88bde3503d6189c7843bbfd6bbaabfceb6250",
+    "/assets/imagen/seguridad-proteccion.jpg": "d92146a3dddba2648f4a7b92c64db7e857f98220",
+    "/assets/imagen/seguridad-proteccion.png": "25a457da3820229f496ba0e77e3f39ac4785facb",
+    "/assets/imagen/transferencia.jpg": "68464ecfb64c46ad9953a1e5bdd89fd2c7a82be2",
+    "/assets/imagen/variedad-marcas.png": "8b933b22c0c9f28ec6e11ec12bb59e771fe7a7f2",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "6f22de779c0a30806812f9a02a8ca8cb1821a371",
+    "/main.3dcd475a738b9728.js": "dab7c383ef46f054865fa1db35633133c92bb513",
+    "/manifest.webmanifest": "c75aa9c0fbba57b6a004f0ad5cefdc795f49d223",
+    "/polyfills.55dab41de8af99a2.js": "eb406713f7137e926addf4694ebc11d64881a954",
+    "/runtime.4020ee6fbb00eeab.js": "b294c8aca634dfa22fd8b95b6fc9356b68865078",
+    "/styles.ba5ddbc2e07b2610.css": "acfcc6d262dc52d1d6aa8611d808ca4fed6074aa"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
